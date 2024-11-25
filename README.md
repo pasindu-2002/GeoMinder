@@ -22,8 +22,5 @@ Follow these steps to set up the project locally:
 ### Step 1: Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/todo-location-reminders.git
-cd todo-location-reminders
-
-###Step 2: Open in Android Studio
-- Launch Android Studio and open the project directory.
+  git clone https://github.com/yourusername/todo-location-reminders.git
+  cd todo-location-reminders
