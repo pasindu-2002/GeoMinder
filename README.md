@@ -14,3 +14,5 @@ This is an Android application that helps users manage tasks and set location-ba
 - **Android Development**: Java for Android.
 - **Google Maps API**: For location services and geofencing.
 - **Room Database**: To store tasks locally in the app.
+
+## Screenshot
