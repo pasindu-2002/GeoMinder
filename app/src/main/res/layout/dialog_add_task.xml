@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Dialog Title -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Activity"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Activity Name Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Name"
+        android:textSize="16sp"
+        android:paddingBottom="4dp" />
+
+    <!-- Activity Name Input -->
+    <EditText
+        android:id="@+id/editTextActivityName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter activity name"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <!-- Activity Description Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Description"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Activity Description Input -->
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter description"
+        android:inputType="textMultiLine"
+        android:padding="8dp" />
+
+    <!-- Date Picker Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Date Picker Input -->
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Choose a date"
+        android:focusable="false"
+        android:padding="8dp" />
+
+    <!-- Time Picker Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Time Picker Input -->
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Choose a time"
+        android:focusable="false"
+        android:padding="8dp" />
+
+    <!-- Location Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Location"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Location Picker Input -->
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Select a location"
+        android:focusable="false"
+        android:padding="8dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp">
+
+        <!-- Clear Button -->
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Cancel Button -->
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Submit" />
+    </LinearLayout>
+</LinearLayout>

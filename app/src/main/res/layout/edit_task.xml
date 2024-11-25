@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Activity"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Activity Name Label -->
+
+    <!-- Activity Name Input -->
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter activity name"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <!-- Activity Description Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Description"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Activity Description Input -->
+    <EditText
+        android:id="@+id/editTextTaskDescription"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter description"
+        android:inputType="textMultiLine"
+        android:padding="8dp" />
+
+    <!-- Date Picker Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Date Picker Input -->
+    <EditText
+        android:id="@+id/editTextTaskData"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Choose a date"
+        android:focusable="false"
+        android:padding="8dp" />
+
+    <!-- Time Picker Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Time Picker Input -->
+    <EditText
+        android:id="@+id/editTextTaskTime"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Choose a time"
+        android:focusable="false"
+        android:padding="8dp" />
+
+    <!-- Location Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Location"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp" />
+
+    <!-- Location Picker Input -->
+    <EditText
+        android:id="@+id/editTextTaskLocation"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Select a location"
+        android:focusable="false"
+        android:padding="8dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSaveTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/buttonDeleteTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:backgroundTint="@color/red" />
+</LinearLayout>
