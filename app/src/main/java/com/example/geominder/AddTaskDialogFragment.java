@@ -56,7 +56,7 @@ public class AddTaskDialogFragment extends DialogFragment {
 
         // Initialize the Places API
         if (!Places.isInitialized()) {
-            Places.initialize(requireContext(), "AIzaSyDZorhvz4FK1jUDm9H9ojuqUlzsJW62wz4");
+            Places.initialize(requireContext(), "Google map API key");
         }
     }
 
