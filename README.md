@@ -16,3 +16,10 @@ This is an Android application that helps users manage tasks and set location-ba
 - **Room Database**: To store tasks locally in the app.
 
 ## Screenshot
+
+<img src="" width= 30% height= 30% alt="Image 1">
+<img src="" width= 30% height= 30% alt="Image 1">
+<img src="" width= 30% height= 30% alt="Image 1">
+<img src="" width= 30% height= 30% alt="Image 1">
+<img src="" width= 30% height= 30% alt="Image 1">
+
